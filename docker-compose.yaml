@@ -12,6 +12,6 @@ services:
       - "5705:5705"
       - "9001:9001"
     container_name: drpy
-    image: esme518/docker-drpy:latest
+    image: esme518/docker-drpy
 volumes:
  share_data:
