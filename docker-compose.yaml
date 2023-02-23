@@ -10,7 +10,7 @@ services:
       - share_data:/root/sd/pywork/dr_py
     ports:
       - "5705:5705"
-	  - "9001:9001"
+      - "9001:9001"
     container_name: drpy
     image: esme518/docker-drpy:latest
 volumes:
